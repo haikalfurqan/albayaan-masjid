@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+body{
+    font-family: "Questrial", sans-serif;
+}
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    font-family: "Questrial", sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px; /* Provide space between links */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.nav-menu a:hover {
+    border-bottom: 2px solid;
+    transition: .1s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2 {
+    font-size: 22px;
+    background-color: #f8f9fa; /* Warna latar belakang navbar */
+    display: flex;
+    justify-content: center;
+    padding: 1rem; /* Padding agar konten tidak terlalu rapat */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.fut{
+    position: sticky;
+    bottom: 0;
+}
+
+.navbar2 .nav-menu {
+    display: flex;
+    gap: 15px; /* Jarak antar link */
+}
+
+.navbar2 .nav-menu a {
+    margin: 0 15px; /* Jarak antar link */
+    text-decoration: none;
+    color: #000; /* Warna teks */
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.menu-iklan {
+    border: 1px solid;
+    background-color: #35b847;
+    display: contents;
+}
+
+.menu-konten {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: #4c6abd;
+}
+.Content{
+    float: right;
+}
+p{
+    text-align: justify;
+}
+.content{
+    padding: 10px;
+    margin-top: 1rem;
+}
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
